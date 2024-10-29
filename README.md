@@ -9,6 +9,8 @@ Mata kuliah: bahasa programan
 
 # latihan 1 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/147f451e43ba671dfa5eefc117c3f0481a904ad3/ff30c325-7379-4aff-b391-0b29e684f2d1.jpg)
+
+# kode program
 ```python
 nama = input("Masukkan nama: ")
 uts = input("Masukkan nilai UTS: ")
@@ -103,6 +105,8 @@ Program mencetak nama, nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan kete
 # latihan 2 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/b825cf2b3127bf107e82f3466c50c312662cadcf/WhatsApp%20Image%202024-10-28%20at%2009.44.01.jpeg)
 
+# kode program
+
 ```python
 gaji = int(input("Masukkan gaji :"))
 berkeluarga = (False, True)[input("sudah berkeluarga? (Y/T)") == "Y"]
@@ -164,6 +168,68 @@ print("gaji belum umr")
 Jika gaji kurang dari atau sama dengan 3000000, mencetak "Gaji belum UMR".
 
 # hasil kode program
-![foto](
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/f80fe689f00ffdac01c8153afeec361b40c7ea21/hasil%20kode2.jpg)
+
 # latihan 3 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/c090b38084843b415b765f1a0e27cfeae18a3ba3/7858bf1d-749b-49ed-b309-7a66bc89f57b.jpg)
+
+# kode program
+```python
+
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+
+if a+b == c or b+c == a or c+a == b:
+    print("BENAR")
+else:
+    print("SALAH")
+```
+# penjelasan kode program
+
+```python
+
+a = int(input("Masukkan bilangan A: "))
+b = int(input("Masukkan bilangan B: "))
+c = int(input("Masukkan bilangan C: "))
+```
+
+Di sini, program meminta pengguna untuk memasukkan tiga angka, yaitu a, b, dan c. input() digunakan untuk membaca masukan dari pengguna, lalu int() mengonversi masukan tersebut menjadi bilangan bulat (integer).
+
+```python
+if a + b == c or b + c == a or c + a == b:
+```
+Kode ini adalah bagian dari pernyataan kondisi if, yang memeriksa tiga kemungkinan:
+
+Apakah a + b sama dengan c.
+
+Apakah b + c sama dengan a.
+
+Apakah c + a sama dengan b.
+
+Jika salah satu dari kondisi ini terpenuhi (benar), maka program akan melanjutkan ke baris 6
+
+```python
+print("BENAR")
+```
+
+Jika salah satu kondisi di atas terpenuhi, program akan mencetak "BENAR" sebagai output
+
+```python
+else:
+    print("SALAH")
+```
+
+Jika tidak ada kondisi yang terpenuhi (tidak ada jumlah dua bilangan yang sama dengan bilangan ketiga), maka program akan mengeksekusi blok else dan mencetak "SALAH".
+
+Contoh Kasus:
+
+Misalkan pengguna memasukkan a = 3, b = 5, dan c = 8:
+
+Karena a + b = 3 + 5 = 8, yang sama dengan c, maka program akan mencetak "BENAR".
+
+Jika pengguna memasukkan a = 2, b = 4, dan c = 7:
+
+Tidak ada kombinasi yang memenuhi kondisi a + b == c, b + c == a, atau c + a == b, sehingga program akan mencetak "SALAH".
+
+# 

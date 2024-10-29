@@ -233,5 +233,39 @@ Jika pengguna memasukkan a = 2, b = 4, dan c = 7:
 Tidak ada kombinasi yang memenuhi kondisi a + b == c, b + c == a, atau c + a == b, sehingga program akan mencetak "SALAH".
 
 # latihan 3 program tiket biskop
-![foto](
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)
+
+# kode program 
+```python
+def hitung_harga(tipe_tiket, status_member):
+    harga_regular = 50000
+    harga_vip = 100000
+
+    # Memeriksa tipe tiket
+    if tipe_tiket == "regular":
+        total_harga = harga_regular
+    elif tipe_tiket == "vip":
+        total_harga = harga_vip
+    else:
+        return "Tipe tiket tidak valid"
+
+    # Memeriksa status member
+    if status_member == "ya":
+        total_harga *= 0.8  # Diskon 20% untuk member
+        return f"Total harga: {total_harga}"
+    elif status_member == "tidak":
+        return f"Total harga: {total_harga}"
+    else:
+        return "Tipe tiket tidak valid"
+
+# Contoh penggunaan fungsi
+tipe_tiket = input("Masukkan tipe tiket (regular/vip): ").lower()
+status_member = input("Apakah Anda member? (ya/tidak): ").lower()
+
+hasil = hitung_harga(tipe_tiket, status_member)
+print(hasil)
+```
+
+
+
 

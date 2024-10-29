@@ -236,7 +236,7 @@ Tidak ada kombinasi yang memenuhi kondisi a + b == c, b + c == a, atau c + a == 
 
 
 # latihan 3 program tiket biskop
-![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/1a78f31ad81a336f75704a20e72f01f1edd9c98d/73750955-c8fa-4f25-9cba-4e423b5cb247.jpg)
 
 # kode program 
 ```python
@@ -328,8 +328,10 @@ print(hasil)
 Kode ini meminta input dari pengguna mengenai tipe tiket dan status member, kemudian memanggil fungsi hitung_harga dengan input tersebut. Hasilnya akan ditampilkan di layar
 
 # hasil kode program
+![foto](
 
-
+# program  kasus kalkuator
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)
 
 
 

@@ -36,6 +36,65 @@ print("Nilai Akhir  :",akhir)
 print("\nNilai Huruf    :",huruf)
 print("Keterangan   :",keterangan)
 ```
+# penjelasan kode proram
+```python
+nama = input("Masukkan nama: ")
+uts = input("Masukkan nilai UTS: ")
+uas = input("Masukkan nilai UAS: ")
+tugas = input("Masukkan nilai Tugas: ")
+```
+Program meminta pengguna memasukkan nama, nilai UTS, nilai UAS, dan nilai tugas
+
+```python
+akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+```
+
+Menghitung nilai akhir dengan menggunakan bobot: 20% untuk tugas, 40% untuk UTS, dan 40% untuk UAS.
+
+```python
+
+keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+```
+
+Jika akhir lebih dari 60.0, maka keterangan akan menjadi "LULUS", jika tidak, "TIDAK LULUS".
+
+```python
+
+if akhir > 80:
+    huruf = "A"
+elif akhir > 70:
+    huruf = "B"
+elif akhir > 50:
+    huruf = "C"
+elif akhir > 40:
+    huruf = "D"
+else:
+    huruf = "E"
+```
+
+Berdasarkan nilai akhir, program menentukan nilai huruf:
+
+A jika lebih dari 80
+
+B jika lebih dari 70
+
+C jika lebih dari 50
+
+D jika lebih dari 40
+
+E jika di bawah atau sama dengan 40
+
+```python
+
+print("\nNama :", nama)
+print("Nilai UTS :", uts)
+print("Nilai UAS :", uas)
+print("Nilai Tugas :", tugas)
+print("Nilai Akhir :", akhir)
+print("\nNilai Huruf :", huruf)
+print("Keterangan :", keterangan)
+```
+Program mencetak nama, nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan keterangan lulus atau tidak lulus.
 
 # latihan 2 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/b825cf2b3127bf107e82f3466c50c312662cadcf/WhatsApp%20Image%202024-10-28%20at%2009.44.01.jpeg)

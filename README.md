@@ -328,7 +328,7 @@ print(hasil)
 Kode ini meminta input dari pengguna mengenai tipe tiket dan status member, kemudian memanggil fungsi hitung_harga dengan input tersebut. Hasilnya akan ditampilkan di layar
 
 # hasil kode program
-![foto](
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/0190d5c7b6c82b4a02e62f784be480214b3a804c/hasil%20tiket.jpg)
 
 # program  kasus kalkuator
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)

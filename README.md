@@ -231,6 +231,9 @@ Karena a + b = 3 + 5 = 8, yang sama dengan c, maka program akan mencetak "BENAR"
 Jika pengguna memasukkan a = 2, b = 4, dan c = 7:
 
 Tidak ada kombinasi yang memenuhi kondisi a + b == c, b + c == a, atau c + a == b, sehingga program akan mencetak "SALAH".
+# hasil kode program
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/f714e7e98e7dbbc9058f561ecf4f226ec1ae1d53/hasil%20kode3.jpg)
+
 
 # latihan 3 program tiket biskop
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)
@@ -265,6 +268,69 @@ status_member = input("Apakah Anda member? (ya/tidak): ").lower()
 hasil = hitung_harga(tipe_tiket, status_member)
 print(hasil)
 ```
+# penjelasan kode program
+```python
+
+harga_regular = 50000
+harga_vip = 100000
+```
+Bagian ini mendefinisikan harga tiket untuk dua jenis tiket:
+
+Regular dengan harga 50,000
+
+VIP dengan harga 100,000
+
+```python
+
+if tipe_tiket == "regular":
+    total_harga = harga_regular
+elif tipe_tiket == "vip":
+    total_harga = harga_vip
+else:
+    return "Tipe tiket tidak valid"
+```
+Kode ini mengecek apakah input tipe_tiket adalah "regular" atau "vip".
+
+Jika tipe tiket adalah "regular", maka total_harga diatur ke harga tiket regular.
+
+Jika tipe tiket adalah "vip", maka total_harga diatur ke harga tiket VIP.
+
+Jika input tidak sesuai, program akan memberikan pesan "Tipe tiket tidak valid".
+
+```python
+
+if status_member == "ya":
+    total_harga *= 0.8  # Diskon 20% untuk member
+    return f"Total harga: {total_harga}"
+elif status_member == "tidak":
+    return f"Total harga: {total_harga}"
+else:
+    return "Status member tidak valid"
+```
+
+Bagian ini mengecek apakah status_member adalah "ya" atau "tidak":
+
+Jika pengguna adalah member (jawaban "ya"), akan ada diskon 20% (mengalikan total_harga dengan 0.8).
+
+Jika bukan member (jawaban "tidak"), harga tiket tetap.
+
+Jika input tidak sesuai, maka program akan memberikan pesan "Status member tidak valid"
+
+```python
+
+tipe_tiket = input("Masukkan tipe tiket (regular/vip): ").lower()
+status_member = input("Apakah Anda member? (ya/tidak): ").lower()
+
+hasil = hitung_harga(tipe_tiket, status_member)
+print(hasil)
+```
+
+Kode ini meminta input dari pengguna mengenai tipe tiket dan status member, kemudian memanggil fungsi hitung_harga dengan input tersebut. Hasilnya akan ditampilkan di layar
+
+# hasil kode program
+
+
+
 
 
 

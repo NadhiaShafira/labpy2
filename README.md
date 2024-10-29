@@ -10,6 +10,33 @@ Mata kuliah: bahasa programan
 # latihan 1 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/147f451e43ba671dfa5eefc117c3f0481a904ad3/ff30c325-7379-4aff-b391-0b29e684f2d1.jpg)
 
+nama = input("Masukkan nama: ")
+uts = input("Masukkan nilai UTS: ")
+uas = input("Masukkan nilai UAS: ")
+tugas = input("Masukkan nilai Tugas: ")
+
+akhir = (int(tugas) * .2) + (int(uts) * .4) + (int(uas) * .4)
+keterangan = ("TIDAK LULUS", "LULUS")[akhir > 60.0]
+if akhir > 80:
+    huruf = "A"
+elif akhir > 70:
+    huruf = "B"
+elif akhir > 50:
+    huruf = "C"
+elif akhir > 40:
+    huruf = "D"
+else:
+    huruf = "E"
+
+print("\nNama       :",nama)
+print("Nilai UTS    :",uts)
+print("Nilai UAS    :",uas)
+print("Nilai Tugas  :",tugas)
+print("Nilai Akhir  :",akhir)
+print("\nNilai Huruf    :",huruf)
+print("Keterangan   :",keterangan)
+
+
 # latihan 2 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/b825cf2b3127bf107e82f3466c50c312662cadcf/WhatsApp%20Image%202024-10-28%20at%2009.44.01.jpeg)
 

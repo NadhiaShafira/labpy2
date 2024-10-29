@@ -120,10 +120,48 @@ else:
 ```
 # penejelasan kode program
 ```python
+gaji = int(input("Masukkan gaji :"))
+```
+ Mengambil input gaji dari pengguna dan mengonversinya menjadi integer
 
+ ```python
+berkeluarga = (False, True)[input("sudah berkeluarga? (Y/T)") == "Y"]
+
+punya_rumah = (False, True)[input("Punya rumah? (Y/T)") == "Y"]
+```
+Mengambil input status keluarga (Y untuk "sudah berkeluarga" atau T untuk "belum berkeluarga") dan kepemilikan rumah (Y untuk "punya rumah" atau T untuk "tidak punya rumah") dari pengguna, dan mengonversinya menjadi True atau False
+
+   ```python
+if gaji > 3000000
+```
+Mengecek apakah gaji lebih besar dari 3000000.
+
+Jika benar, mencetak "Gaji sudah diatas UMR
+
+```python
+if berkeluarga
+print ("wajib ikutan asuransi dan menabung untuk pensiun")
+else
+print("tidak per ikutan asuransi")
+```
+Jika berkeluarga bernilai True, maka mencetak "Wajib ikutan asuransi dan menabung untuk pensiun", jika tidak mencetak "tidak perlu ikutan asuransi".
+
+```python
+if punya_rumah:
+print("wajib bayar pajak rumah")
+else
+print("tidak wajib bayar pajak rumah")
+```
+Jika punya_rumah bernilai True, mencetak "wajib bayar pajak rumah", jika tidak mencetak "tidak wajib bayar pajak rumah".
+
+```python
+print("gaji belum umr")
+```
+Jika gaji kurang dari atau sama dengan 3000000, mencetak "Gaji belum UMR".
 
 # latihan 2 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/b825cf2b3127bf107e82f3466c50c312662cadcf/WhatsApp%20Image%202024-10-28%20at%2009.44.01.jpeg)
+
 
 # latihan 3 menentukan nilai akhir
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/c090b38084843b415b765f1a0e27cfeae18a3ba3/7858bf1d-749b-49ed-b309-7a66bc89f57b.jpg)

@@ -232,4 +232,6 @@ Jika pengguna memasukkan a = 2, b = 4, dan c = 7:
 
 Tidak ada kombinasi yang memenuhi kondisi a + b == c, b + c == a, atau c + a == b, sehingga program akan mencetak "SALAH".
 
-# 
+# latihan 3 program tiket biskop
+![foto](
+

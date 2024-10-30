@@ -407,6 +407,8 @@ Hasil dari pemanggilan fungsi calculate(angka1, angka2, operasi) akan dicetak di
 # hasil kode program
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/e8eaa8992aadd9f01a9eff4b0ee89ca172cee13d/hasil%20kode.jpg)
 
+![foto(https://github.com/Indahwakifa/Flow-chart/blob/85802c77f3ceca866ed4ed2bb01ceae8c46aa2e9/hasil%20%20kode%20program.jpg)
+
 ![foto(
 
 

@@ -333,7 +333,79 @@ Kode ini meminta input dari pengguna mengenai tipe tiket dan status member, kemu
 # program  kasus kalkuator
 ![foto](https://github.com/Indahwakifa/Flow-chart/blob/fe835855301022eaea1d6ed0850610a1e23243f7/870f000c-0f17-4824-a4c8-a8015dcc92f1.jpg)
 
+# kode program
+```python
+# Fungsi untuk melakukan operasi aritmatika
+def kalkulator(angka1, angka2, operator):
+    if operator == '+':
+        return angka1 + angka2
+    elif operator == '-':
+        return angka1 - angka2
+    elif operator == '*':
+        return angka1 * angka2
+    elif operator == '/':
+        if angka2 != 0:
+            return angka1 / angka2
+        else:
+            return "Kesalahan: Pembagian dengan nol tidak diperbolehkan"
+    else:
+        return "Operator tidak valid"
 
+# Meminta input dari pengguna
+angka1 = float(input("Masukkan angka pertama: "))
+angka2 = float(input("Masukkan angka kedua: "))
+operator = input("Masukkan operator (+, -, *, /): ")
+
+# Menghitung hasil berdasarkan input pengguna
+hasil = kalkulator(angka1, angka2, operator)
+
+# Menampilkan hasil
+print(f"Hasil: {hasil}"
+```
+# penjelasan kode program
+```python
+
+Fungsi calculate(angka1, angka2, operasi):
+```
+
+Fungsi ini menerima tiga parameter:
+
+```python
+angka1: angka pertama (dari input pengguna).
+
+angka2: angka kedua (dari input pengguna).
+
+operasi: operasi yang akan dilakukan (penjumlahan, pengurangan, pembagian, atau perkalian)
+```
+Fungsi akan memeriksa nilai operasi dan melakukan operasi yang sesuai:
+
+Jika operasi adalah "penjumlahan", maka angka1 dan angka2 dijumlahkan.
+
+Jika operasi adalah "pengurangan", maka angka2 dikurangi dari angka1.
+
+Jika operasi adalah "pembagian", maka angka1 dibagi dengan angka2, tetapi jika angka2 adalah 0, akan memberikan pesan error "Error: Division by zero".
+
+Jika operasi adalah "perkalian", maka angka1 dikalikan dengan angka2.
+
+Jika operasi tidak sesuai dengan pilihan yang ada, hasilnya adalah "Operasi tidak valid".
+
+
+Fungsi akan mengembalikan (return) hasil operasi tersebut.
+
+```python
+Program meminta input dari pengguna:
+
+angka1: pengguna diminta untuk memasukkan angka pertama.
+
+angka2: pengguna diminta untuk memasukkan angka kedua.
+
+operasi: pengguna diminta untuk memilih jenis operasi (penjumlahan, pengurangan, pembagian, atau perkalian).
+```
+
+Hasil dari pemanggilan fungsi calculate(angka1, angka2, operasi) akan dicetak di layar menggunakan print("Hasil =", ...).
+
+# hasil kode program
+![foto](
 
 
 

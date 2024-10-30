@@ -1,7 +1,7 @@
 # laporan praktikum 2
-Nama: Indah Wafikah
+Nama: Nadhia Shafira
 
-nim: 312410559
+nim: 312410498
 
 dosen pengampu: Angung Nugroho, s.kom.,M.Kom,
 

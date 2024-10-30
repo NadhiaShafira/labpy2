@@ -405,7 +405,9 @@ operasi: pengguna diminta untuk memilih jenis operasi (penjumlahan, pengurangan,
 Hasil dari pemanggilan fungsi calculate(angka1, angka2, operasi) akan dicetak di layar menggunakan print("Hasil =", ...).
 
 # hasil kode program
-![foto](
+![foto](https://github.com/Indahwakifa/Flow-chart/blob/e8eaa8992aadd9f01a9eff4b0ee89ca172cee13d/hasil%20kode.jpg)
+
+![foto(
 
 
 
